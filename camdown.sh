@@ -8,8 +8,10 @@ do
 	if [ "$_COUNT" == 0 ]
 		then
 			if [[ "$d" != *"timelapse"* ]]
-				printf %s\\n ""$d" Stopped recording yesterday!!!"
+				then
+					printf %s\\n ""$d" Stopped recording yesterday!!!"
 			fi
 	fi
 done
+
 
